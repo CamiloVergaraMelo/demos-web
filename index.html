@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Veterinaria Patitas | Cuidado y amor para tu mejor amigo</title>
+  <meta name="description" content="Clínica veterinaria con más de 9 años de experiencia en cuidado integral de mascotas. Atención médica, cirugía, vacunación y baño en Las Condes."/>
+  
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ══════════ NAV ══════════ -->
+<nav id="nav" role="navigation" aria-label="Navegación principal">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-logo">
+     <img src="images/logo.png" alt="Clínica Patitas" class="nav-logo-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#sobre-nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="https://wa.me/xxxxxx" target="_blank" rel="noopener" class="nav-cta">Agendar cita</a></li>
+    </ul>
+    <button class="nav-burger" id="burger-btn" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div id="mobile-menu">
+  <ul>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#sobre-nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="https://wa.me/xxxxxx" target="_blank" rel="noopener" class="m-cta">Agendar cita</a></li>
+  </ul>
+</div>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="inicio" aria-label="Inicio">
+  <div id="hero">
+    <div class="hero-bg"></div>
+    <img class="hero-mobile-photo" src="images/hero-mobile.png" alt="Clínica Veterinaria Patitas"/>
+
+    <div class="hero-content">
+      <div class="hero-text-box">
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-line"></span>
+          <span class="hero-eyebrow-text">VETERINARIA</span>
+        </div>
+        <h1 class="hero-title">
+          Cuidado y amor<br>
+          <em>especializado</em> para<br>
+          tu mejor amigo
+        </h1>
+        <p class="hero-desc">
+          Más de 9 años de experiencia brindando atención médica de excelencia. Medicina preventiva, cirugía y mucho más.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn-primary">Agendar consulta</a>
+          <!--<a href="#sobre-nosotros" class="btn-ghost">Conocer más</a> --> 
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats-bar">
+      <div class="hero-stats-inner">
+        <div class="hero-stat">
+          <div class="hero-stat-n">9<span class="hero-stat-u">+</span></div>
+          <div class="hero-stat-l">Años de experiencia</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-n"><span class="hero-stat-u">+</span>2.500</div>
+          <div class="hero-stat-l">Pacientes felices</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VETERINARIO DESTACADO ══════════ 
+<section id="veterinario-destacado">
+  <div class="container">
+    <div class="veterinario-inner">
+      <div class="veterinario-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div class="veterinario-text">
+        <div class="veterinario-title">Médico Veterinario Certificado</div>
+        <div class="veterinario-sub">Atención con profesionales altamente capacitados y comprometidos con el bienestar animal.</div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- ══════════ SERVICIOS ══════════ -->
+<section id="servicios">
+  <div class="container">
+    <div class="servicios-header">
+      <div class="section-label">Especialización</div>
+      <h2 class="section-title">Nuestros servicios</h2>
+      <p class="section-subtitle">Atención integral para tu mascota.<br>Prevención, diagnóstico y tratamiento de calidad.</p>
+    </div>
+    <div class="servicios-grid">
+      <div class="servicio-card">
+        <div class="servicio-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="11" width="18" height="11" rx="2"/>
+            <path d="M7 11V7a5 5 0 0110 0v4"/>
+          </svg>
+        </div>
+        <div class="servicio-name">Medicina General</div>
+        <div class="servicio-desc">Consultas, diagnóstico y tratamiento de enfermedades comunes. Seguimiento personalizado para cada paciente.</div>
+      </div>
+      <div class="servicio-card">
+        <div class="servicio-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+          </svg>
+        </div>
+        
+        <div class="servicio-name">Vacunación</div>
+        <div class="servicio-desc">Esquemas completos de vacunación según edad y especie. Protege a tu mascota de enfermedades prevenibles.</div>
+      </div>
+      <div class="servicio-card">
+        <div class="servicio-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </div>
+        <div class="servicio-name">Peluquería y Baño</div>
+        <div class="servicio-desc">Baño medicinal, corte de uñas, limpieza auditiva y estética profesional con productos de alta calidad.</div>
+      </div>
+      
+        
+  </div>
+</section>
+
+<!-- ══════════ SOBRE NOSOTROS ══════════ -->
+<section id="sobre-nosotros">
+  <div class="container">
+    <div class="sobre-grid">
+      <div class="sobre-photo-wrap">
+        <img class="sobre-photo" src="images/equipo-veterinario.png" alt="Equipo de Clínica Patitas"/>
+      </div>
+      <div>
+        <div class="sobre-label">Nosotros</div>
+        <h2 class="sobre-title">Clínica Veterinaria Patitas</h2>
+        <p class="sobre-text">
+          Somos un equipo de profesionales apasionados por el bienestar animal. Contamos con más de 9 años de experiencia en atención médica, cirugía y cuidado integral de mascotas.
+        </p>
+        <p class="sobre-text">
+          Nuestra clínica está equipada con tecnología de última generación para ofrecer diagnósticos precisos y tratamientos efectivos. Creemos en la medicina preventiva como base para una vida larga y saludable.
+        </p>
+        <div class="sobre-highlight">
+          <div class="sobre-highlight-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div class="sobre-highlight-text">
+            Somos <strong>miembros activos del Colegio Médico Veterinario</strong> y seguimos estrictos protocolos de ética y calidad profesional.
+          </div>
+        </div>
+        <div class="trayectoria">
+          <div class="trayectoria-title">Nuestros valores</div>
+          <div class="tray-item">
+            <div class="tray-dot"></div>
+            <div class="tray-text">Compromiso con el bienestar animal</div>
+          </div>
+          <div class="tray-item">
+            <div class="tray-dot"></div>
+            <div class="tray-text">Atención personalizada y cálida</div>
+          </div>
+          <div class="tray-item">
+            <div class="tray-dot"></div>
+            <div class="tray-text">Actualización médica continua</div>
+          </div>
+          <div class="tray-item">
+            <div class="tray-dot"></div>
+            <div class="tray-text">Tecnología y diagnóstico de precisión</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MAPA ══════════ -->
+<section id="mapa">
+  <div class="mapa-card">
+    <div class="mapa-card-name">Clínica Veterinaria Patitas</div>
+    <div class="mapa-card-addr">Callao 2927 of. 702, Las Condes</div>
+    <a href="https://wa.me/xxxxxx" target="_blank" rel="noopener" class="mapa-card-link">Agendar una cita →</a>
+  </div>
+  <iframe
+    id="map"
+    title="Ubicación Clínica Patitas"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://maps.google.com/maps?q=Callao+2927,+Las+Condes,+Santiago,+Chile&t=&z=17&ie=UTF8&iwloc=&output=embed">
+  </iframe>
+</section>
+
+<!-- ══════════ CONTACTO ══════════ -->
+<section id="contacto">
+  <div class="container">
+    <div class="contacto-grid">
+      <div>
+        <div class="section-label" style="margin-bottom:16px;">Contacto</div>
+        <h2 class="contacto-info-title">Cuida a tu mejor amigo</h2>
+        <p class="contacto-info-text">
+          ¿Tu mascota necesita atención? Cuéntanos qué le sucede y te daremos la mejor orientación. Estamos aquí para ayudarte.
+        </p>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.69a16 16 0 006.29 6.29l1.05-1.05a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">WhatsApp</div>
+            <div class="contact-value"><a href="https://wa.me/xxxxxx" target="_blank">+56 9 9024 0842</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Correo electrónico</div>
+            <div class="contact-value"><a href="mailto:contacto@patitas.cl">contacto@patitas.cl</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-label">Ubicación</div>
+            <div class="contact-value">Callao 2927 of. 702, Las Condes</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="nombre">Nombre completo</label>
+            <input class="form-input" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Correo electrónico</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="tu@correo.cl" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="telefono">Teléfono</label>
+            <input class="form-input" type="tel" id="telefono" name="telefono" placeholder="+56 9 XXXX XXXX"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="area">Servicio requerido</label>
+            <select class="form-input" id="area" name="area">
+              <option value="">Selecciona un servicio...</option>
+              <option>Medicina General</option>
+              <option>Cirugía</option>
+              <option>Vacunación</option>
+              <option>Peluquería</option>
+              <option>Odontología</option>
+              <option>Laboratorio</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="mensaje">Descripción</label>
+            <textarea class="form-textarea" id="mensaje" name="mensaje" placeholder="Describe la situación de tu mascota..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit" id="submit-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            Enviar consulta
+          </button>
+          <div id="form-msg" style="display:none;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="fn">Clínica Veterinaria Patitas</div>
+        <div class="ft">Cuidado y amor para tu mascota</div>
+        <p>Atención médica de excelencia con más de 9 años de experiencia. Tu mejor amigo en las mejores manos.</p>
+      </div>
+      <div>
+        <div class="footer-links-title">Servicios</div>
+        <ul class="footer-links">
+          <li><a href="#servicios">Medicina General</a></li>
+          <li><a href="#servicios">Cirugía</a></li>
+          <li><a href="#servicios">Vacunación</a></li>
+          <li><a href="#servicios">Peluquería</a></li>
+          <li><a href="#servicios">Odontología</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-links-title">Contacto</div>
+        <ul class="footer-links">
+          <li><a href="mailto:contacto@patitas.cl">contacto@patitas.cl</a></li>
+          <li><a href="https://wa.me/xxxxxx" target="_blank">+56 9 9024 0842</a></li>
+          <li><a href="#">www.patitas.cl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Clínica Veterinaria Patitas · Todos los derechos reservados</div>
+      <div class="footer-social">
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zm2-5a2 2 0 110 4 2 2 0 010-4z"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/xxxxxx" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ WHATSAPP FLOTANTE ══════════ -->
+<a id="whatsapp-btn" href="https://wa.me/xxxxxx?text=Hola%2C%20necesito%20informaci%C3%B3n%20para%20mi%20mascota." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
